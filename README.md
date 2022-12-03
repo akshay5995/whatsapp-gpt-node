@@ -11,11 +11,10 @@
 - You'll run a dedicated browser in another window that's controlling ChatGPT.
 - Open 2 terminals
 - In one `yarn build:server` then `yarn:start` - Log in to open ai 
- - Quit the sever
- - Restart server by running `HEADLESS=true yarn start:server` (Should be already logged in!)
+- Quit the sever
 - In the other terminal `yarn start:whatsapp` and log in to whatsapp web
- - Quit the process
- - Restart in headless mode using `HEADLESS=true yarn start:whatsapp`
+- Quit the process
+- Restart in headless mode using `yarn start`
 
 
 ## Usuage

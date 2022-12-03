@@ -6,9 +6,11 @@
   "scripts": {
     "start:server": "node server/index.js",
     "build:server": "ncc build src/server.ts  -o server",
-    "start:whatsapp": "ts-node src/whatsapp.ts"
+    "start:whatsapp": "ts-node src/whatsapp.ts",
+    "start": "HEADLESS=true concurrently \"yarn start:server\" \"yarn start:whatsapp\""
   },
   "dependencies": {
+    "concurrently": "^7.6.0",
     "express": "^4.17.1",
     "node-fetch": "2",
     "playwright": "^1.6.0",
