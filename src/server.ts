@@ -4,6 +4,8 @@ import express, { Request, Response } from "express";
 const app = express();
 let page: Page;
 
+const headless = process.env.HEADLESS === "true";
+
 const getInputBox = () => {
   return page.getByRole("textbox");
 };
@@ -59,7 +61,7 @@ const startBrowser = async () => {
 
 const main = async () => {
   const browser = await chromium.launchPersistentContext("/tmp/playwrigh", {
-    headless: false,
+    headless,
   });
   page = await browser.newPage();
   await startBrowser();
