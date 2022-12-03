@@ -1,5 +1,10 @@
 # Whatsapp -> GPT node
 
+# Requirements
+
+- node LTS
+- yarn
+
 ## Setup
 
 - You'll need to run WhatsApp from a phone number using the golang library I'm using.
