@@ -1,9 +1,11 @@
 import { Client, LocalAuth } from "whatsapp-web.js";
 import fetch from "node-fetch";
 
+const headless = process.env.HEADLESS === "true";
+
 const client = new Client({
   authStrategy: new LocalAuth(),
-  puppeteer: { headless: false },
+  puppeteer: { headless },
 });
 
 client.on("loading_screen", (percent, message) => {

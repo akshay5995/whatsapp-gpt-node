@@ -14,6 +14,8 @@
  - Quit the sever
  - Restart server by running `HEADLESS=true yarn start:server` (Should be already logged in!)
 - In the other terminal `yarn start:whatsapp` and log in to whatsapp web
+ - Quit the process
+ - Restart in headless mode using `HEADLESS=true yarn start:whatsapp`
 
 
 ## Usuage
