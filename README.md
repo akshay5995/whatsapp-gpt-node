@@ -12,7 +12,7 @@
 - Open 2 terminals
 - In one `yarn build:server` then `yarn:start` - Log in to open ai 
  - Quit the sever
- - Restart server by running `HEADLESS=true yarn start:server` (Should should be already logged in)
+ - Restart server by running `HEADLESS=true yarn start:server` (Should be already logged in!)
 - In the other terminal `yarn start:whatsapp` and log in to whatsapp web
 
 
