@@ -16,8 +16,7 @@
 - In the other terminal `yarn start:whatsapp` and log in to whatsapp web
 
 
-## Playground
+## Usuage
 
-- Ping to your `logged in` number `!ping` -> You'll receive pong
-- Ping to the same numb er `!openai` -> You'll receive the response from openai
-
+- Ping to your `logged in` whatsapp number `!ping` -> You should receive `pong`
+- Ping to the same number `!openai <your-message>` -> You should receive the response from `openai` 
