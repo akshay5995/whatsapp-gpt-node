@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2016",
+    "moduleResolution": "node",
+    "strict": false,
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["src/*.test.ts"]
+}
